@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Management System</title>
+    <title>Students Vault</title>
 </head>
 <body>
-    <h1>Student Management System</h1>
-    <a href="{{ url_for('add_student') }}">Add New Student</a>
+    <h1>Students Vault</h1>
     <table border="1">
         <thead>
             <tr>
@@ -36,5 +35,7 @@
             {% endfor %}
         </tbody>
     </table>
+    <br>
+    <a href="{{ url_for('add_student') }}">Add New Student</a>
 </body>
 </html>

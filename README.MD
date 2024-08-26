@@ -1,0 +1,2 @@
+Tech stacks used - Python , Flask , SQLITE3 , HTML
+The primary focus of this project is on server-side development using Flask, a Python web framework. The application handles HTTP requests, performs data processing, and manages data stored in an SQLite3 database. The core functionality revolves around creating, reading, updating, and deleting student records, which are classic backend operations.
